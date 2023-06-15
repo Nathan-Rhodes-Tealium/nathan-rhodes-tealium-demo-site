@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <!-- Home Page -->
     <head>
         <title>Nathan Demo Site</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     </head>
     <body>
+        <!--Header For All pages-->
         <div class="header">
             <a href="#default" class="logo">CompanyLogo</a>
             <div class="header-right">
@@ -14,10 +16,68 @@
               <a href="#about">About</a>
             </div>
           </div>
-          
-          <div style="padding-left:20px">
-            <h1>Nathan Demo Site</h1>
-            <p>Resizable header</p>
+        <!-- Page View All Pages -->
+          <header class="container">
+            <p class="header-left">Home</p>
+            <p class="header-right">
+                <i class="shopping-cart"></i>
+                <i class="search"></i>
+            </p>
+          </header>
+
+
+          <!-- Image Header -->
+          <div class="display-container">
+            <img src="assets/imgs/pc-header.jpg" alt="pc by Tianyi Ma" style="width:100%">
+            <div class="display-top-left" style="padding:24px 48px">
+                <h1 class="header-text">Home Page</h1>
+                <p><a href="#tech" class="button">SHOP NOW</a></p>
+            </div>
           </div>
+
+          <!--Product Header-->
+          <div class="container text-grey" id="tech">
+            <p>4 items</p>
+          </div>
+
+          <!--Product Grid-->
+          <div class="row">
+            <div class="col">
+                <div class="container">
+                    <img src="assets/imgs/dell.jpg" alt="Dell laptop by Dell" style="width:100%">
+                    <div class="display-middle display-hover">
+                        <button class="button">BUY NOW</button>
+                    </div>
+                    <p>Dell Laptop<br><b>$899.99</b></p>
+                </div>
+                <div class="container">
+                    <img src="assets/imgs/macbook.jpg" alt="Macbook laptop by Howard Bouchevereau" style="width:100%">
+                    <div class="display-middle display-hover">
+                        <button class="button">BUY NOW</button>
+                    </div>
+                    <p>Macbook<br><b>$999.99</b></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <img src="assets/imgs/keyboard.jpg" alt="Keyboard laptop by Editor Keys" style="width:100%">
+                    <span class="tag display-top-left">New</span>
+                    <div class="display-middle display-hover">
+                        <button class="button">BUY NOW</button>
+                    </div>
+                    <p>Keyboard<br><b>129.50</b></p>
+                </div>
+                <div class="container">
+                    <img src="assets/imgs/headphones.jpg" alt="Headphones laptop by Sebastian Banasiewcz" style="width:100%">
+                    <div class="display-middle display-hover">
+                        <button class="button">BUY NOW</button>
+                    </div>
+                    <p>Headphones<br><b>$420.00</b></p>
+                </div>
+            </div>
+          </div> 
+
+
+
     </body>
 </html>
